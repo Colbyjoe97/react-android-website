@@ -1,0 +1,37 @@
+
+.navbar-brand {
+    color: black;
+    font-weight: 550;
+    margin-right: 3px;
+}
+.navbar-left {
+    height: 30px;
+}
+.navbar-left > img {
+    height: 100%;
+}
+.banner-links, .mobile-hidden {
+    cursor: pointer;
+    list-style: none;
+    gap: 20px;
+}
+.mobile-hidden {
+    margin-right: 20px;
+}
+.mobile-hidden > li:hover{
+    color: lightgrey;
+}
+
+
+
+
+@media(max-width: 1024px) {
+    .mobile-hidden {
+        font-size: 0px;
+    }
+}
+@media(min-width: 1025px) {
+    .hamburger {
+        display: none;
+    }
+}
