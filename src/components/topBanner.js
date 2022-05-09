@@ -18,8 +18,8 @@ const TopBanner = () => {
                         <li>Android 12</li>
                         <li>Phones & Tablets</li>
                         <li>Enterprise</li>
+                        <SearchIcon />
                     </div>
-                    <SearchIcon />
                     <div className="hamburger">
                         <MenuIcon />
                     </div>
