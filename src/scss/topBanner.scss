@@ -1,10 +1,15 @@
-
+.navbar {
+    height: 70px;
+}
 .navbar-brand {
     color: black;
-    font-weight: 550;
     margin-right: 3px;
 }
+a:hover {
+    color: black;
+}
 .navbar-left {
+    font-weight: 645;
     height: 30px;
 }
 .navbar-left > img {
@@ -16,10 +21,13 @@
     gap: 20px;
 }
 .mobile-hidden {
-    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    gap: 40px;
+    // margin-right: 40px;
 }
 .mobile-hidden > li:hover{
-    color: lightgrey;
+    color: rgb(124, 124, 124);
 }
 
 
