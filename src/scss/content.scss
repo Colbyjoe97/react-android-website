@@ -40,8 +40,8 @@
 }
 
 .circle {
-    height: 380px;
-    width: 380px;
+    height: 348px;
+    width: 348px;
     border-radius: 50%;
 }
 .red {
@@ -54,14 +54,17 @@
 }
 .blue {
     position: relative;
-    top: 340px;
+    top: 350px;
     right: 50px;
     background-color: #d7effe;
     border-bottom: none;
 }
 .green {
     position: absolute;
-    bottom: 100px;
-    right: 185px;
+    bottom: 416px;
+    right: 255px;
+    // bottom: 90px;
+    // right: 180px;
     background-color: #eff7cf;
+    transform: translate3d(20%, 90%, 0);
 }
