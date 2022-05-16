@@ -37,31 +37,30 @@
 }
 .content-right {
     flex: 3;
+    display: flex;
 }
 
 .circle {
-    height: 380px;
-    width: 380px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
 .red {
-    position: absolute;
-    // bottom: 450px;
-    // left: 190px;
-    top: 52px;
-    right: 424px;
+    position: relative;
+    bottom: 100px;
+    left: 0;
     background-color: #fef0eb;
 }
 .blue {
-    position: relative;
-    top: 340px;
-    right: 50px;
+    // position: relative;
+    // top: 340px;
+    // right: 50px;
+    // border-bottom: none;
     background-color: #d7effe;
-    border-bottom: none;
 }
 .green {
-    position: absolute;
-    bottom: 100px;
-    right: 185px;
+    // position: absolute;
+    // bottom: 100px;
+    // right: 185px;
     background-color: #eff7cf;
 }

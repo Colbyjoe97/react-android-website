@@ -1,5 +1,5 @@
 .wrapper {
     margin: 0 auto;
-    width: 70%;
+    min-width: 500px;
     max-width: 1200px;
 }
