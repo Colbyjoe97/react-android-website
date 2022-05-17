@@ -5,11 +5,12 @@
     gap: 20px;
     margin: 0 auto;
     height: 80vh;
-    overflow: hidden;
+    // overflow: hidden;
 }
 .content-left {
     flex: 2;
-    min-width: 40%
+    min-width: 40%;
+    height: 500px;
 }
 .content-left > h1 {
     font-size: 75px;
@@ -37,21 +38,24 @@
 }
 .content-right {
     flex: 3;
-    display: flex;
+    background-color: salmon;
+    height: 500px;
 }
-
+.content-right > img {
+    height: 400px;
+}
 .circle {
     height: 300px;
     width: 300px;
     border-radius: 50%;
 }
 .red {
-    position: relative;
-    bottom: 100px;
-    left: 0;
     background-color: #fef0eb;
 }
 .blue {
+    position: inherit;
+    right: 0;
+    top: 100px;
     background-color: #d7effe;
 }
 .green {
