@@ -5,11 +5,12 @@
     gap: 20px;
     margin: 0 auto;
     height: 80vh;
-    overflow: hidden;
+    // overflow: hidden;
 }
 .content-left {
     flex: 2;
-    min-width: 40%
+    min-width: 40%;
+    height: 500px;
 }
 .content-left > h1 {
     font-size: 75px;
@@ -37,34 +38,26 @@
 }
 .content-right {
     flex: 3;
+    background-color: salmon;
+    height: 500px;
 }
-
+.content-right > img {
+    height: 400px;
+}
 .circle {
-    height: 348px;
-    width: 348px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
 .red {
-    position: absolute;
-    // bottom: 450px;
-    // left: 190px;
-    top: 52px;
-    right: 424px;
     background-color: #fef0eb;
 }
 .blue {
-    position: relative;
-    top: 350px;
-    right: 50px;
+    position: inherit;
+    right: 0;
+    top: 100px;
     background-color: #d7effe;
-    border-bottom: none;
 }
 .green {
-    position: absolute;
-    bottom: 416px;
-    right: 255px;
-    // bottom: 90px;
-    // right: 180px;
     background-color: #eff7cf;
-    transform: translate3d(20%, 90%, 0);
 }
