@@ -5,6 +5,9 @@ import phone2 from '../assets/PhoneStairsMiddle.png'
 import phone3 from '../assets/PhoneStairsTop.png'
 
 export default function content() {
+
+  
+
   return (
       <div>
           <div className="content">
@@ -14,6 +17,7 @@ export default function content() {
                 <button>LEARN MORE</button>
               </div>
               <div className="content-right">
+                <div id="test">Hello</div>
                 <div className="circle blue"></div>
                 <img id="phone-1" src={ phone1 } alt="" />
                 <div className="circle red"></div>
