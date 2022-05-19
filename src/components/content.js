@@ -7,6 +7,7 @@ import phone3 from '../assets/PhoneStairsTop.png'
 export default function content() {
 
   
+
   return (
       <div>
           <div className="content">
